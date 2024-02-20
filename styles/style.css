@@ -80,7 +80,7 @@ html {
   --background-color-about: #DDDDDD;
   --background-color-footer: #DDDDDD;    
   --alt-background-color: #262523;
-  --background-color-holding-page: rgba(82, 0, 255,0.6);
+  --background-color-holding-page: rgba(216, 216, 216, 0.6);
   --h1-color: #262523;
   --h2-color: #262523;
   --h3-color: #262523;
@@ -98,7 +98,7 @@ html {
   --hover-color: #262523;
   --visited-color: #AE6D98;
   --project-title-color: #AE6D98;
-  --project-sidebar-background-color: black;
+  --project-sidebar-background-color: #DDDDDD;
   --project-sidebar-text-color: white;
   --heart-color: #AE6D98;
   --holding-page-footer-color: #f8f8ff;
