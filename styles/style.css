@@ -238,7 +238,7 @@ a:hover {
 }
 
 a:focus {
-  outline: 1px solid var(--accent-color);
+  outline: 0px solid var(--accent-color);
 }
 
 a:active {
