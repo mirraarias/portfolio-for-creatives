@@ -89,24 +89,24 @@ html {
   --h6-color: #262523;
   --primary-text-color: #262523;
   --holding-page-title-color: #ebedf0;
-  --accent-color: #DE92C4;
-  --overlay-color: #DE92C4;
+  --accent-color: #AE6D98;
+  --overlay-color: #AE6D98;
   --overlay-title-color: #ffffff;
   --overlay-description-color: #ffffff;
-  --hyperlink-color: #DE92C4;
+  --hyperlink-color: #AE6D98;
   --hyperlink-alternate-color: orangered;
-  --hover-color: #111;
-  --visited-color: #DE92C4;
-  --project-title-color: #DE92C4;
+  --hover-color: #262523;
+  --visited-color: #AE6D98;
+  --project-title-color: #AE6D98;
   --project-sidebar-background-color: black;
   --project-sidebar-text-color: white;
-  --heart-color: darkred;
+  --heart-color: #AE6D98;
   --holding-page-footer-color: #f8f8ff;
-  --text-selection-background-color: #DE92C4;
-  --linear-gradient-color-1: #ff057c;
-  --linear-gradient-color-2: #8d0b93;
-  --linear-gradient-color-3: #321575;
-  --stroke-shadow-color: rgba(0, 0, 0, 0.4);
+  --text-selection-background-color: #AE6D98;
+  --linear-gradient-color-1: #F1CDCD;
+  --linear-gradient-color-2: #DDDDDD;
+  --linear-gradient-color-3: #E4582B;
+  --stroke-shadow-color: rgba(0, 0, 0, 0);
 }
 
 
