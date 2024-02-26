@@ -76,7 +76,7 @@ html {
   --background-color-about: #f1f0eb;
   --background-color-footer: #f1f0eb;
   --alt-background-color: #262523;
-  --background-color-holding-page: rgba(216, 216, 216, 0.6);
+  --background-color-holding-page: rgb(228, 158, 204);
   --h1-color: #262523;
   --h2-color: #262523;
   --h3-color: #262523;
@@ -595,7 +595,7 @@ a:active {
   /* Delete the following if you do not want a grainy gradient background on the holding page */
   background: linear-gradient(
       0deg,
-      rgba(0, 0, 0, 1),
+      rgb(165, 113, 150),
       var(--background-color-holding-page)
     ),
     url(/assets/temp/noise.svg);
