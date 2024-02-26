@@ -99,9 +99,9 @@ html {
   --heart-color: #ae6d98;
   --holding-page-footer-color: #f8f8ff;
   --text-selection-background-color: #ae6d98;
-  --linear-gradient-color-1: #f1cdcd;
-  --linear-gradient-color-2: #dddddd;
-  --linear-gradient-color-3: #e4582b;
+  --linear-gradient-color-1: #f1f0eb;
+  --linear-gradient-color-2: #f8f8ffe1;
+  --linear-gradient-color-3: #f1f0eb;
   --stroke-shadow-color: rgba(0, 0, 0, 0);
 }
 
