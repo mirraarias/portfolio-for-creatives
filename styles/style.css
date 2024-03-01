@@ -47,7 +47,7 @@ No media query for `xs` since this is the default in Bootstrap
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  cursor: url("../assets/temp/up-cursor.png"), auto !important;
+  cursor: url("../assets/additional/liza-borissova-custom-cursor.svg"), auto !important;
 }
 
 *,
@@ -308,12 +308,11 @@ a.custom-navigation {
   min-height: 80vh;
   display: flex;
   flex-direction: column;
-  /*
-  background: url(../assets/additional/liza-borissova-hero-background.jpg);
+
+  background: url(../assets/additional/liza-borissova-portfolio-background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  */
 }
 
 .branding-navigation {
@@ -550,8 +549,7 @@ a.custom-navigation {
 
 .project-image {
   width: 100%;
-  min-height: 50vh;
-  /* min-height should be deleted if you want to remove space between project images on project pages */
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -566,7 +564,7 @@ a.custom-navigation {
 }
 
 .project-text {
-  width: 100%;
+  width: 80%;
   font-size: 3.25rem;
   padding: 3rem;
 }
@@ -943,8 +941,6 @@ a.sub-navigation-link:hover {
   }
 
   .project-image {
-    min-height: 70vh;
-    /* This should be deleted if you want to remove space between project images on project pages */
   }
 
   .project-image-container {
