@@ -100,7 +100,7 @@ html {
   --holding-page-footer-color: #f8f8ff;
   --text-selection-background-color: #ae6d98;
   --linear-gradient-color-1: #f1f0eb;
-  --linear-gradient-color-2: #f8f8ffe1;
+  --linear-gradient-color-2: #f1f0eb;
   --linear-gradient-color-3: #f1f0eb;
   --stroke-shadow-color: rgba(0, 0, 0, 0);
 }
@@ -309,7 +309,7 @@ a.custom-navigation {
   display: flex;
   flex-direction: column;
 
-  background: url(../assets/additional/liza-borissova-portfolio-background.png);
+  background: url(../assets/additional/liza-borissova-hero-background.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
