@@ -657,6 +657,10 @@ a.custom-navigation {
 .error-page {
   display: grid;
   place-items: center;
+  background: url(../assets/additional/liza-borissova-hero-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 .error-page-wrapper {
