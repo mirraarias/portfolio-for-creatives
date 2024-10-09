@@ -72,7 +72,7 @@ html {
   --body-typeface: "Urbanist", sans-serif;
   --heading-typeface: "Urbanist", sans-serif;
   --project-title-typeface: "Urbanist", sans-serif;
-  --background-color: #f1f0eb;
+  --background-color: #ffffff;
   --background-color-about: #f1f0eb;
   --background-color-footer: #f6de70;
   --alt-background-color: #000000;
@@ -85,6 +85,7 @@ html {
   --h6-color: #000000;
   --primary-text-color: #000000;
   --holding-page-title-color: #f1f0eb;
+  --work-page-padding: 2.5rem; /* This will afffect all the padding on the work page */
   --accent-color: #ff8fdd;
   --overlay-color: #000000;
   --overlay-title-color: #f1f0eb;
@@ -195,6 +196,9 @@ em {
 }
 
 .hero-headline {
+  width: 100%;
+  font-size: 3.65rem;
+  text-align: center;
   color: var(--overlay-color);
 }
 
@@ -295,13 +299,7 @@ a.custom-navigation {
 }
 
 .hero-h2 {
-  display: flex;
-  flex-direction: row;
-  flex: 2;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0rem 0rem;
-  text-align: right;
+  font-size: 1.5rem;
 }
 
 /* Hero 
@@ -315,10 +313,9 @@ a.custom-navigation {
 */
 
 .hero {
-  min-height: 80vh;
   display: flex;
   flex-direction: column;
-
+  padding: var(--work-page-padding);
   background-color: #ffffff;
 }
 
@@ -327,9 +324,18 @@ a.custom-navigation {
   flex-direction: row;
   justify-content: space-between;
   padding: 0.5rem;
-  align-items: flex-start;
+  align-items: center;
+  border: 2px solid hotpink;
 }
 
+.menu {
+  border: 2px solid hotpink;
+  display: flex;
+  flex-direction: row;
+}
+.menu-item {
+  margin-left: 1.3rem;
+}
 .logo {
   width: 2 rem;
 }
@@ -344,7 +350,6 @@ a.custom-navigation {
 .hero-headline-wrapper {
   display: flex;
   flex-direction: column;
-  flex: 1;
   align-items: center;
   justify-content: center;
   padding: 0rem 0rem;
@@ -358,10 +363,10 @@ a.custom-navigation {
 }
 
 .hero-footer {
+  width: 100%;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .hero-footer-navigation {
@@ -383,6 +388,7 @@ a.custom-navigation {
 
 .work-wrapper {
   flex: 1;
+  padding: var(--work-page-padding);
 }
 
 /* Padding around work grid and project page */
@@ -429,6 +435,17 @@ a.custom-navigation {
 .work-page-grid-item:hover .overlay {
   visibility: visible;
   opacity: 0.8;
+}
+
+.project-description {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid deepskyblue;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.project-description-item:first-child {
+  padding-left: 4rem;
 }
 
 /* 
@@ -487,7 +504,7 @@ a.custom-navigation {
   grid-template-columns: 1fr;
   grid-gap: 3rem;
   background: var(--background-color-footer);
-  padding: 1rem;
+  padding: var(--work-page-padding);
 }
 
 .footer-item-1 {
@@ -853,14 +870,9 @@ a.sub-navigation-link:hover {
     width: 6rem;
   }
 
-  .hero {
-    min-height: 100vh;
-  }
-
   .hero-headline-wrapper {
-    width: 60%;
     margin: 0 auto;
-    padding: 2rem 6rem;
+    padding: 2rem 2rem;
   }
 
   .grid {
