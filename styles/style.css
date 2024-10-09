@@ -74,35 +74,35 @@ html {
   --project-title-typeface: "Urbanist", sans-serif;
   --background-color: #f1f0eb;
   --background-color-about: #f1f0eb;
-  --background-color-footer: #f1f0eb;
-  --alt-background-color: #262523;
-  --background-color-holding-page: rgb(228, 158, 204);
-  --h1-color: #262523;
-  --h2-color: #262523;
-  --h3-color: #262523;
-  --h4-color: #262523;
-  --h5-color: #262523;
-  --h6-color: #262523;
-  --primary-text-color: #262523;
+  --background-color-footer: #f6de70;
+  --alt-background-color: #000000;
+  --background-color-holding-page: ##f6de70;
+  --h1-color: #000000;
+  --h2-color: #000000;
+  --h3-color: #000000;
+  --h4-color: #000000;
+  --h5-color: #000000;
+  --h6-color: #000000;
+  --primary-text-color: #000000;
   --holding-page-title-color: #f1f0eb;
-  --accent-color: #ae6d98;
-  --overlay-color: #ae6d98;
+  --accent-color: #ff8fdd;
+  --overlay-color: #000000;
   --overlay-title-color: #f1f0eb;
   --overlay-description-color: #f1f0eb;
-  --hyperlink-color: #ae6d98;
+  --hyperlink-color: #000000;
   --hyperlink-alternate-color: orangered;
-  --hover-color: #262523;
-  --visited-color: #ae6d98;
-  --project-title-color: #ae6d98;
+  --hover-color: #f6de70;
+  --visited-color: #000000;
+  --project-title-color: #000000;
   --project-sidebar-background-color: #f1f0eb;
-  --project-sidebar-text-color: #262523;
-  --heart-color: #ae6d98;
+  --project-sidebar-text-color: #000000;
+  --heart-color: #f6de70;
   --holding-page-footer-color: #f8f8ff;
-  --text-selection-background-color: #ae6d98;
+  --text-selection-background-color: #f6de70;
   --linear-gradient-color-1: #f1f0eb;
   --linear-gradient-color-2: #f1f0eb;
   --linear-gradient-color-3: #f1f0eb;
-  --stroke-shadow-color: rgba(0, 0, 0, 0);
+  --stroke-shadow-color: #f6de70;
 }
 
 body {
@@ -142,7 +142,7 @@ svg {
 */
 
 h1 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: var(--heading-typeface);
   margin-bottom: 1.5rem;
   color: var(--h1-color);
@@ -294,6 +294,16 @@ a.custom-navigation {
   margin-bottom: 1rem;
 }
 
+.hero-h2 {
+  display: flex;
+  flex-direction: row;
+  flex: 2;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 0rem;
+  text-align: right;
+}
+
 /* Hero 
 
 ██   ██ ███████ ██████   ██████  
@@ -309,26 +319,23 @@ a.custom-navigation {
   display: flex;
   flex-direction: column;
 
-  background: url(../assets/additional/liza-borissova-hero-background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+  background-color: #ffffff;
 }
 
 .branding-navigation {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 0.5rem;
   align-items: flex-start;
 }
 
 .logo {
-  width: 4rem;
+  width: 2 rem;
 }
 
 #svg-logo {
-  fill: #231f20;
+  fill: #000000;
 }
 
 #svg-logo:hover {
@@ -340,8 +347,10 @@ a.custom-navigation {
   flex: 1;
   align-items: center;
   justify-content: center;
-  padding: 2rem 4rem;
-  text-align: center;
+  padding: 0rem 0rem;
+  min-width: fit-content;
+  text-align: right;
+  background-color: #f6de70;
 }
 
 .hero-icon {
@@ -604,7 +613,7 @@ a.custom-navigation {
   /* Delete the following if you do not want a grainy gradient background on the holding page */
   background: linear-gradient(
       0deg,
-      rgb(165, 113, 150),
+      #ffffff,
       var(--background-color-holding-page)
     ),
     url(/assets/temp/noise.svg);
