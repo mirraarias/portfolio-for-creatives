@@ -74,31 +74,31 @@ html {
   --body-typeface: "Helvetica Neue", sans-serif;
   --heading-typeface: "Helvetica Neue", sans-serif;
   --project-title-typeface: "Helvetica Neue", sans-serif;
-  --background-color: #ffffff;
-  --background-color-about: #f1f0eb;
+  --background-color: #FFFFFF;
+  --background-color-about: #FFFFFF;
   --background-color-footer: #f6de70;
-  --alt-background-color: #000000;
-  --background-color-holding-page: ##f6de70;
-  --h1-color: #000000;
-  --h2-color: #000000;
-  --h3-color: #000000;
-  --h4-color: #000000;
-  --h5-color: #000000;
-  --h6-color: #000000;
-  --primary-text-color: #000000;
-  --holding-page-title-color: #f1f0eb;
+  --alt-background-color: #170303;
+  --background-color-holding-page: #f6de70;
+  --h1-color: #170303;
+  --h2-color: #170303;
+  --h3-color: #170303;
+  --h4-color: #170303;
+  --h5-color: #170303;
+  --h6-color: #170303;
+  --primary-text-color: #170303;
+  --holding-page-title-color: #FFFFFF;
   --work-page-padding: 2.5rem; /* This will afffect all the padding on the work page */
-  --accent-color: #ff8fdd;
-  --overlay-color: #000000;
+  --accent-color: #D89CC0;
+  --overlay-color: #170303;
   --overlay-title-color: #f1f0eb;
   --overlay-description-color: #f1f0eb;
-  --hyperlink-color: #000000;
+  --hyperlink-color: #170303;
   --hyperlink-alternate-color: orangered;
-  --hover-color: #f6de70;
-  --visited-color: #000000;
-  --project-title-color: #000000;
+  --hover-color: #D89CC0;
+  --visited-color: #170303;
+  --project-title-color: #170303;
   --project-sidebar-background-color: #f1f0eb;
-  --project-sidebar-text-color: #000000;
+  --project-sidebar-text-color: #170303;
   --heart-color: #f6de70;
   --holding-page-footer-color: #f8f8ff;
   --text-selection-background-color: #f6de70;
@@ -249,7 +249,7 @@ a:visited {
 
 a:hover {
   color: var(--hover-color);
-  border-bottom: 3px solid black;
+  
 }
 
 a:focus {
@@ -258,13 +258,12 @@ a:focus {
 
 a:active {
   color: var(--hover-color);
-  border-bottom: 3px solid black;
+  
   /* Tap on mobile */
 }
 
 a.active-link {
-  color: var(--hover-color);
-  border-bottom: 3px solid black;
+  border-bottom: 6px solid #f6de70;
 }
 
 a.custom-navigation {
@@ -350,11 +349,9 @@ a.custom-navigation {
   justify-content: space-between;
   padding: 0.5rem;
   align-items: center;
-  border: 2px solid hotpink;
 }
 
 .menu {
-  border: 2px solid hotpink;
   display: flex;
   flex-direction: row;
 }
@@ -362,11 +359,11 @@ a.custom-navigation {
   margin-left: 1.3rem;
 }
 .logo {
-  width: 2 rem;
+  width: 4 rem;
 }
 
 #svg-logo {
-  fill: #000000;
+  fill: #170303;
 }
 
 #svg-logo:hover {
