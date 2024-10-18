@@ -384,6 +384,7 @@ a.custom-navigation {
   font-size: 4rem;
 }
 
+
 .hero-footer {
   width: 100%;
   display: flex;
@@ -463,7 +464,6 @@ a.custom-navigation {
 .project-description {
   display: flex;
   flex-direction: row;
-  border: 2px solid deepskyblue;
   justify-content: space-between;
   padding: 1rem;
 }
