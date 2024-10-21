@@ -74,8 +74,8 @@ html {
   --body-typeface: "Helvetica Neue", sans-serif;
   --heading-typeface: "Helvetica Neue", sans-serif;
   --project-title-typeface: "Helvetica Neue", sans-serif;
-  --background-color: #FFFFFF;
-  --background-color-about: #FFFFFF;
+  --background-color: #ffffff;
+  --background-color-about: #ffffff;
   --background-color-footer: #f6de70;
   --alt-background-color: #170303;
   --background-color-holding-page: #f6de70;
@@ -86,15 +86,15 @@ html {
   --h5-color: #170303;
   --h6-color: #170303;
   --primary-text-color: #170303;
-  --holding-page-title-color: #FFFFFF;
+  --holding-page-title-color: #ffffff;
   --work-page-padding: 2.5rem; /* This will afffect all the padding on the work page */
-  --accent-color: #D89CC0;
+  --accent-color: #d89cc0;
   --overlay-color: #170303;
   --overlay-title-color: #f1f0eb;
   --overlay-description-color: #f1f0eb;
   --hyperlink-color: #170303;
   --hyperlink-alternate-color: orangered;
-  --hover-color: #D89CC0;
+  --hover-color: #d89cc0;
   --visited-color: #170303;
   --project-title-color: #170303;
   --project-sidebar-background-color: #f1f0eb;
@@ -249,7 +249,6 @@ a:visited {
 
 a:hover {
   color: var(--hover-color);
-  
 }
 
 a:focus {
@@ -258,7 +257,7 @@ a:focus {
 
 a:active {
   color: var(--hover-color);
-  
+
   /* Tap on mobile */
 }
 
@@ -383,7 +382,6 @@ a.custom-navigation {
 .hero-icon {
   font-size: 4rem;
 }
-
 
 .hero-footer {
   width: 100%;
@@ -978,7 +976,6 @@ a.sub-navigation-link:hover {
     grid-row: 2 / 3;
     text-align: center;
   }
-
 
   /* About Page Grid Layout */
 
