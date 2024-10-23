@@ -360,29 +360,33 @@ a.custom-navigation {
   margin-left: 1.3rem;
 }
 .logo {
-  width: 4 rem;
+  width: 4rem;
 }
 
-#svg-logo {
-  fill: #170303;
+.wordmark {
+  fill: black;
 }
-
-#svg-logo:hover {
+.wordmark:hover {
   fill: var(--accent-color);
 }
+
 .hero-headline-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 0rem 0rem;
-  min-width: fit-content;
   text-align: right;
   background-color: #f6de70;
+  width: 100%;
 }
 
 .hero-icon {
   font-size: 4rem;
+}
+
+.hero-illustration-animated {
+  width: 100%;
 }
 
 .hero-footer {
@@ -924,7 +928,7 @@ a.sub-navigation-link:hover {
   }
 
   .logo {
-    width: 6rem;
+    width: 15rem;
   }
 
   .hero-headline-wrapper {
