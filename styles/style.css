@@ -12,7 +12,8 @@ Add the Google Fonts you want, remove the ones you don't.
 
 @import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.cdnfonts.com/css/helvetica-neue-5");
-@import url("https://fonts.cdnfonts.com/css/vremena");
+@import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
 /*
 
@@ -71,9 +72,9 @@ html {
 /* Design variables refer to CSS variables that store specific design elements, such as colors and typography, which can be utilized throughout a website. Instead of individually modifying each CSS element, designers can quickly make changes by using design variables. Adjust the variables below, create new variables as desired, and delete the variables that you do not want to use. */
 
 :root {
-  --body-typeface: "Helvetica Neue", sans-serif;
-  --heading-typeface: "Helvetica Neue", sans-serif;
-  --project-title-typeface: "Helvetica Neue", sans-serif;
+  --body-typeface: "Forum", serif;
+  --heading-typeface: "Outfit", sans-serif;
+  --project-title-typeface: "Outfit", sans-serif;
   --background-color: #ffffff;
   --background-color-about: #ffffff;
   --background-color-footer: #f6de70;
@@ -87,7 +88,7 @@ html {
   --h6-color: #170303;
   --primary-text-color: #170303;
   --holding-page-title-color: #ffffff;
-  --work-page-padding: 2.5rem; /* This will afffect all the padding on the work page */
+  --work-page-padding: 4rem; /* This will afffect all the padding on the work page */
   --accent-color: #d89cc0;
   --overlay-color: #170303;
   --overlay-title-color: #f1f0eb;
@@ -97,14 +98,14 @@ html {
   --hover-color: #d89cc0;
   --visited-color: #170303;
   --project-title-color: #170303;
-  --project-sidebar-background-color: #f1f0eb;
+  --project-sidebar-background-color: #ffffff;
   --project-sidebar-text-color: #170303;
   --heart-color: #f6de70;
   --holding-page-footer-color: #f8f8ff;
   --text-selection-background-color: #f6de70;
-  --linear-gradient-color-1: #f1f0eb;
-  --linear-gradient-color-2: #f1f0eb;
-  --linear-gradient-color-3: #f1f0eb;
+  --linear-gradient-color-1: #ffffff;
+  --linear-gradient-color-2: #ffffff;
+  --linear-gradient-color-3: #ffffff;
   --stroke-shadow-color: #f6de70;
 }
 
@@ -215,8 +216,9 @@ em {
 
 .hero-headline {
   width: 100%;
-  font-size: 4rem;
-  text-align: right;
+  font-size: 6.2rem;
+  font-weight: 300;
+  text-align: center;
   color: var(--overlay-color);
 }
 
@@ -629,6 +631,7 @@ a.custom-navigation {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0.5rem;
 }
 
 .project-image-column {
