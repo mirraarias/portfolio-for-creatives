@@ -394,7 +394,7 @@ a.custom-navigation {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 3rem;
+  padding-top: 1.5rem;
 }
 
 .hero-footer-navigation {
