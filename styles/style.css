@@ -268,7 +268,7 @@ a.active-link {
 }
 
 a.custom-navigation {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 a.custom-navigation {
 }
@@ -348,8 +348,8 @@ a.custom-navigation {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0.5rem;
-  align-items: center;
+  padding-bottom: 1.7rem;
+  align-items: flex-end;
 }
 
 .menu {
@@ -357,7 +357,7 @@ a.custom-navigation {
   flex-direction: row;
 }
 .menu-item {
-  margin-left: 1.3rem;
+  margin-left: 2rem;
 }
 .logo {
   width: 4rem;
@@ -470,6 +470,8 @@ a.custom-navigation {
   flex-direction: row;
   justify-content: space-between;
   padding: 1rem;
+  font-size: 1.4rem;
+  color: #170303;
 }
 .project-description-item:first-child {
   padding-left: 4rem;
@@ -924,7 +926,7 @@ a.sub-navigation-link:hover {
   }
 
   h3 {
-    font-size: 1.625rem;
+    font-size: 2rem;
   }
 
   .logo {
