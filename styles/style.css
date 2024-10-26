@@ -88,7 +88,7 @@ html {
   --h6-color: #170303;
   --primary-text-color: #170303;
   --holding-page-title-color: #ffffff;
-  --work-page-padding: 2rem 4rem 0 4rem; /* This will afffect all the padding on the work page */
+  --work-page-padding: 2.5rem 4rem 0 4rem; /* This will afffect all the padding on the work page */
   --accent-color: #d89cc0;
   --overlay-color: #170303;
   --overlay-title-color: #f1f0eb;
