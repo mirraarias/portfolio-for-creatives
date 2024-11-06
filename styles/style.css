@@ -472,7 +472,6 @@ a.custom-navigation {
   justify-content: space-between;
   font-size: 1.4rem;
   color: #170303;
-  background: orange;
 }
 .project-description-item:first-child {
   padding-left: 4rem;
