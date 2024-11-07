@@ -447,6 +447,7 @@ a.custom-navigation {
 .work-wrapper {
   flex: 1;
   padding: var(--work-page-padding);
+  padding-bottom: 4rem;
 }
 
 /* Defining the work page grid */
@@ -495,9 +496,11 @@ a.custom-navigation {
   justify-content: space-between;
   font-size: 1.4rem;
   color: #170303;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .project-description-item:first-child {
-  padding-left: 4rem;
+  padding-left: 3rem;
 }
 
 /* 
