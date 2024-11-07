@@ -320,13 +320,30 @@ a.custom-navigation {
 .project-description {
   font-size: 1.225rem;
   line-height: 1.2;
+}
+
+.description-project-page {
+  display: flex;
+  flex-direction: row;
+}
+
+.description-project-page-item {
+  flex: 1;
+}
+
+
+.description-project-page-item h1 {
   margin-bottom: 1rem;
 }
 
-.project-description-project-page {
-  font-size: 1.5rem;
+.description-project-page-item h4 {
+  font-size: 1.35rem;
+}
+
+.description-project-page-item p {
+  font-size: 1.35rem;
   line-height: 1.2;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .hero-h2 {
@@ -588,6 +605,9 @@ a.custom-navigation {
 /* Sidebar */
 
 .project-info {
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .project-navigation {
   display: flex;
