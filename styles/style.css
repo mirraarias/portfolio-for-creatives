@@ -88,7 +88,7 @@ html {
   --h6-color: #170303;
   --primary-text-color: #170303;
   --holding-page-title-color: #ffffff;
-  --work-page-padding: 2.5rem 5rem 0 5rem; /* This will afffect all the padding on the work page */
+  --work-page-padding: 2.5rem 7rem 0 7rem; /* This will afffect all the padding on the work page */
   --accent-color: #d89cc0;
   --overlay-color: #170303;
   --overlay-title-color: #f1f0eb;
@@ -103,7 +103,7 @@ html {
   --heart-color: #f6de70;
   --holding-page-footer-color: #f8f8ff;
   --text-selection-background-color: #f6de70;
-  --linear-gradient-color-1: #ffffff;r
+  --linear-gradient-color-1: #ffffff;
   --linear-gradient-color-2: #ffffff;
   --linear-gradient-color-3: #ffffff;
   --stroke-shadow-color: #f6de70;
@@ -319,6 +319,12 @@ a.custom-navigation {
 
 .project-description {
   font-size: 1.225rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.project-description-project-page {
+  font-size: 1.5rem;
   line-height: 1.2;
   margin-bottom: 1rem;
 }
@@ -568,9 +574,18 @@ a.custom-navigation {
   justify-content: space-between;
 }
 
+.project {
+  display: grid;
+  grid-gap: 2rem;
+  background: var(--background-color-about);
+  padding-left: 1.5rem;
+  padding-right: 1rem;
+  padding-bottom: 3rem;
+  flex: 1;
+  grid-template-columns: 1fr;
+}
+
 /* Sidebar */
-
-
 
 .project-info {
 }
@@ -594,7 +609,8 @@ a.custom-navigation {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .project-image-column {
@@ -623,6 +639,18 @@ a.custom-navigation {
 
 .project-1 {
   padding: var(--work-page-padding);
+}
+
+.project-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.project-row-item {
 }
 
 /* 
