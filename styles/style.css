@@ -603,6 +603,7 @@ a.custom-navigation {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: var(--work-page-padding-mobile);
 }
 
 .project {
@@ -669,10 +670,6 @@ a.custom-navigation {
 
 .project-details {
   width: 100%;
-}
-
-.project-1 {
-  padding: var(--work-page-padding-mobile);
 }
 
 .project-row {
@@ -960,10 +957,6 @@ a.sub-navigation-link:hover {
     padding: var(--work-page-padding);
   }
 
-  .project-1 {
-    padding: var(--work-page-padding);
-  }
-
   .project-description-item:first-child {
     padding-left: 3rem;
   }
@@ -991,8 +984,8 @@ a.sub-navigation-link:hover {
   }
 
   .grid {
-    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
-    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-gap: 2.5rem;
   }
 
   /* Grayscale filter with full-colour on hover and tap */
@@ -1061,6 +1054,7 @@ a.sub-navigation-link:hover {
   /* Project Page Flex Direction on Large Devices */
   .project-wrapper {
     flex-direction: column;
+    padding: var(--work-page-padding);
   }
 
   /* Sidebar on Large Devices */
@@ -1093,7 +1087,7 @@ a.sub-navigation-link:hover {
 @media (min-width: 1200px) {
   .grid {
     grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
-    grid-gap: 1rem;
+    grid-gap: 2.5rem;
   }
 }
 
@@ -1102,6 +1096,6 @@ a.sub-navigation-link:hover {
 @media (min-width: 1400px) {
   .grid {
     grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
-    grid-gap: 1rem;
+    grid-gap: 2.5rem;
   }
 }
